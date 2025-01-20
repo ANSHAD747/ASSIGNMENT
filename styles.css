@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Fira Sans", serif;
+    background-color: #f5f5f5;
+    color: #000000;
+    line-height: 1.6;
+}
+
+header {
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.cta-container .btn-signin {
+    padding: 8px 20px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    color: #000000;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.cta-container .btn-signin:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #b3d1c3;
+    border-radius: 5px;
+}
+
+.banner-text h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.banner-text .btn {
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.banner-text .btn:hover {
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #000000;
+}
+
+.title-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 5px;
+}
+
+.visson-of-future {
+    margin-top: 20px;
+}
+
+.text-color {
+    color: dimgray;
+}
+
+.headdign {
+    margin-bottom: 10px;
+}
+
+.digital,
+.green,
+.modern {
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.digital {
+    background-color: #b3d1c3;
+}
+
+.green {
+    background-color: aquamarine;
+}
+
+.modern {
+    background-color: blanchedalmond;
+}
+
+.btn-digital,
+.btn-green,
+.btn-modern {
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-top: 8px;
+    font-size: 15px;
+    border: none;
+}
+
+.btn-digital {
+    background-color: lightblue;
+}
+
+.btn-green {
+    background-color: darkgreen;
+}
+
+.btn-modern {
+    background-color: aquamarine;
+}
+
+.prents-of-visionfuturebox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.yunus {
+    padding: 15px 7px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-image: url(/image/quote-bg.png);
+    background-repeat: no-repeat;
+}
+
+.recent-news1 {
+    display: flex;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+
+.recent-news1-text {
+    margin-left: 20px;
+}
+
+.image-satellite {
+    border-radius: 5px;
+}
+
+.parents-recent-news {
+    margin-top: 20px;
+}
+
+.btn-recent {
+    padding: 10px 20px;
+    background-color: darkgreen;
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.donate-text {
+    text-align: center;
+}
+
+.prents-donate {
+    margin: 20px;
+}
+
+.donation-li ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.donation-li ul li button {
+    padding: 30px 50px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+.input-file {
+    width: 100%;
+    height: 35px;
+    font-size: 16px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.btn-Done {
+    color: white;
+    background-color: darkgreen;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-top: 8px;
+    font-size: 16px;
+    border: none;
+}
+
+.parents-subscribe {
+    margin: 20px;
+    text-align: center;
+    background-color: lightgreen;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.form {
+    width: 100%;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+
+.subscribe-button {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-subscribe {
+    font-size: 16px;
+    height: 35px;
+    background-color: darkgreen;
+    border: none;
+    border-radius: 5px;
+}
+
+.hover-box:hover {
+    background-color: #e0e0e0;
+    transition: all 0.3s ease;
+}
+
